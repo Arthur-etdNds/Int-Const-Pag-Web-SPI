@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: #191919;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14pt;
+    font-family: 'Segoe UI', Verdana, sans-serif;
+}
+
+h1,h2,p,ul, ol {
+    width: 50%;
+}
+
+h1 {
+    margin: 4rem;
+}
+
+p {
+    margin: 2rem;
+    text-align: justify;
+}
+
+#img_camp {
+    width: 75%;
+}
+
+#img_volei3 {
+    width: 75%;
+}
+
+.rodape {
+    border-top:1px solid #292929;
+}
+.concl {
+    margin: 0.25rem;
+}
+
+ul,ol  {
+    margin: 1rem;
+}
+
+table, tr, th, td {
+    border: 3px solid #393939;
+    
+}
+tr, th, td {
+    padding: 0.5rem;
+}
+
+table {
+    width: 50%;
+    margin: 2.5rem;
+    border-collapse: collapse;
+}
+
+
+
