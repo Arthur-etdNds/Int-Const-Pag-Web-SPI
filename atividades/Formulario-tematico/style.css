@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #ECF0F1;
+    color: #2D3436;
+    font-family: 'Segoe UI', Verdana, sans-serif;
+    font-size: 14pt;
+    min-height: 100vh;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+header, footer {
+    background-color: #2C3E50;
+    color: #ECF0F1;
+    padding: 1rem 2rem 1rem 2rem;
+    font-weight: bold;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    flex: 1;
+    height: 100%;
+}
+
+form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+}
+
+.campo {
+    width: 60%;
+    margin: 2rem;
+
+    background-color: #e8f8f540;
+    box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.25);
+    border-radius: .5rem;
+    padding: 1rem;
+}
+
+.campo div {
+    margin: .5rem;
+}
+
+input:focus {
+    outline: none;
+    border-color: #404546;
+}
+
+input {
+    font-family: 'Segoe UI', Verdana, sans-serif;
+    border: none;
+    border-bottom: 3px solid #7F8C8D;
+    background-color: #e8f8f540;
+    color: #2C3E50;
+    padding: .5rem .5rem 0 0;
+    font-size: 1rem;
+}
+
+input[type="submit"] {
+    background-color: #3498DB;
+    color: #2C3E50;
+    padding: .5rem;
+    margin-bottom: 3rem;
+    border: none;
+    font-weight: bold;
+    border-radius: .5rem;
+}
+
+input[type="submit"]:hover {
+    background-color: #2980B9;
+}
+
+textarea {
+    resize: none;
+    padding: 0.25rem;
+    background-color: #ffffffcc;
+    color: #2c3e50;
+    border-radius: .5rem;
+    margin: .5rem 0 1rem 0;
+    border: 2px solid #7F8C8D;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.dados div {
+    /* border: 3px solid green; */
+    display: inline-flex;
+    align-items: end;
+}
+
+
+.estudo div:not(:nth-child(4)) {
+    display: inline-block;
+}
+
+select {
+    background-color: #ffffffcc;
+    width: 10rem;
+    padding: .5rem;
+    border-radius: .5rem;
+    border: 1px solid #7F8C8D;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #2C3E50;
+}
+
+select:focus {
+    outline: none;
+}
+
+input[type="radio"]:checked {
+    accent-color: #2C3E50;
+}
+
+input[type="checkbox"]:checked {
+    accent-color: #2C3E50;
+}
+
+
+

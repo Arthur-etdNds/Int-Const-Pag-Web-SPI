@@ -1,0 +1,12 @@
+| Elemento                                         | Cor                          | Hex       | Descrição                                   |
+| ------------------------------------------------ | ---------------------------- | --------- | ------------------------------------------- |
+| **Cabeçalho (header)**                           | Azul escuro elegante         | `#2C3E50` | Cria contraste e transmite profissionalismo |
+| **Fundo do corpo (body)**                        | Azul muito claro / off-white | `#ECF0F1` | Dá leveza ao fundo                          |
+| **Caixas de entrada (inputs, select, textarea)** | Branco                       | `#FFFFFF` | Fundo neutro e limpo                        |
+| **Borda dos campos**                             | Cinza médio                  | `#BDC3C7` | Discreto, mas perceptível                   |
+| **Texto principal**                              | Cinza quase preto            | `#2D3436` | Legível e moderno                           |
+| **Botão principal**                              | Azul musical vibrante        | `#3498DB` | Destaque para ações principais              |
+| **Botão hover**                                  | Azul mais escuro             | `#2980B9` | Feedback visual no hover                    |
+| **Campo com foco (focus)**                       | Azul vibrante com brilho     | `#5DADE2` | Indica que o campo está ativo               |
+| **Checkbox e radio marcados**                    | Azul escuro                  | `#2C3E50` | Uniformiza com o cabeçalho                  |
+| **Mensagens de aviso (opcional)**                | Vermelho suave               | `#E74C3C` | Para mensagens de erro/validação            |
