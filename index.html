@@ -1,72 +1,124 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home page atividades ICdPW</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 </head>
-<body>
-    <h1>Home de atividades HTML</h1>
 
-    <h3>Dados pessoais:</h3>
-    <p>
-        <img src="imagens/people.png" alt="Foto de usuário anônimo"><br>
-        Aluno: Arthur Nascimento de Sousa<br>
-        Matrícula: 202510350030<br>
-        Curso: Sistemas para Internet<br>
-        Turma: 1º Período Matutino<br>
-        Disciplina: Introdução a Construção de Páginas Web<br>
-        Professor: Carlos Henrique Correa Tolentino
-    </p>
-    <h4>Descrição</h4>
-    <p>
-        Esta página tem como objetivo reunir todas as atividades práticas realizadas na disciplina Introdução a Construção de Páginas Web, ministrada pelo professor Carlos Henrique Corrêa Tolentino, do curso Sistemas para Internet do IFTO – Campus Palmas.<br>
-        Abaixo, encontram-se os links para as atividades solicitadas pelo professor.<br>
-        Observação: As atividades seguem de acordo com o plano pedagógico do professor. 
-    </p>
-    <table>
-        <tr>
-            <th>Data:</th>
-            <th>Descrição</th>
-            <th>Link</a></th>
-        </tr>
-        <tr>
-            <td>02/04/2025</td>
-            <td>ATV 01 - Prática na manipulação de elementos e atributos em HTML</td>
-            <td><a href="atividades/att1/index.html" target="_blank" rel="noopener noreferrer">Atividade 1</a></td>
-        </tr>
-        <tr>
-            <td>09/04/2025</td>
-            <td>Formatação de elementos HTML</td>
-            <td><a href="atividades/att2/index.html" target="_blank" rel="noopener noreferrer">Atividade 2</a></td>
-        </tr>
-        <tr>
-            <td>16/04/2025</td>
-            <td>Listas e citações</td>
-            <td><a href="atividades/att3/index.html" target="_blank" rel="noopener noreferrer">Atividade 3</a></td>
-        </tr>
-        <tr>
-            <td>23/04/2025</td>
-            <td>TABELAS</td>
-            <td><a href="atividades/att4/index.html" target="_blank" rel="noopener noreferrer">Atividade 4</a></td>
-        </tr>
-        <tr>
-            <td>30/04/2025</td>
-            <td>CSS Externo</td>
-            <td><a href="atividades/att5/index.html" target="_blank" rel="noopener noreferrer">Atividade 5</a></td>
-        </tr>
-        <tr>
-            <td>07/05/2025</td>
-            <td>Web Site hospedado em provedor gratuito</td>
-            <td><a href="https://arthur-nds.github.io/hospedagem_att/" target="_blank" rel="noopener noreferrer">Atividade 6</a></td>
-        </tr>
-        <tr>
-            <td>25/06/2025</td>
-            <td>Formulário temático</td>
-            <td><a href="atividades/Formulario-tematico/" target="_blank" rel="noopener noreferrer">Atividade 7</a></td>
-        </tr>
-    </table>
-    <p class="rodape">Criado por - <a href="https://github.com/Arthur-nds" target="_blank" rel="noopener noreferrer" class="me"> Arthur</a></p>
+<body>
+    <header>
+        <div class="icons-html-css">
+            <img src="imagens/html-5-icon.svg" alt="Ícone html 5">
+            <img src="imagens/css-3-icon.svg" alt="Ícone css 3">
+        </div>
+        <h1>Portfólio de atividades HTML</h1>
+    </header>
+
+    <section class="dados-aluno">
+        <div class="dados-aluno-title">
+            <h3>Dados pessoais:</h3>
+        </div>
+        <div class="aluno">
+            <img src="imagens/people.png" alt="Foto de usuário anônimo"><br>
+            <p><span class="campo">Aluno:</span> Arthur Nascimento de Sousa</p>
+            <p><span class="campo">Matrícula:</span> 202510350030</p>
+        </div>
+        <div class="curso">
+            <img src="imagens/curso-icon.png" alt="Foto de usuário anônimo"><br>
+            <p><span class="campo">Curso:</span> Sistemas para Internet</p>
+            <p><span class="campo">Turma:</span> 1º Período Matutino</p>
+        </div>
+        <div class="disciplina">
+            <img src="imagens/disciplina-icon.png" alt="Foto de usuário anônimo"><br>
+            <p><span class="campo">Disciplina:</span> Int. a Construção de Páginas Web</p>
+            <p><span class="campo">Professor:</span> Carlos Henrique Correa Tolentino</p>
+        </div>
+    </section>
+
+    <section class="description">
+        <div class="description-title">
+            <img src="imagens/description-icon.png" alt="Ícone de descrição">
+            <h3>Descrição</h3>
+        </div>
+        <div class="description-text">
+            <p>
+                Esta página reúne todas as atividades práticas da disciplina Introdução à Construção de Páginas Web
+                relizadas pelo estudante, ministrada pelo professor Carlos Henrique Corrêa Tolentino no curso Sistemas
+                para Internet do IFTO – Campus Palmas. Os links estão organizados conforme o plano pedagógico da
+                disciplina, permitindo acompanhar de forma clara e objetiva os conteúdos desenvolvidos em cada
+                atividade.
+            </p>
+        </div>
+    </section>
+
+    <section class="table-activity">
+        <div class="table-activity-title">
+
+        </div>
+        <table>
+            <tr>
+                <th>Data:</th>
+                <th>Descrição</th>
+                <th>Link</th>
+            </tr>
+            <tr>
+                <td>02/04/2025</td>
+                <td>ATV 01 - Prática na manipulação de elementos e atributos em HTML</td>
+                <td><a href="atividades/att1/index.html" target="_blank" rel="noopener noreferrer">Atividade 1</a></td>
+            </tr>
+            <tr>
+                <td>09/04/2025</td>
+                <td>Formatação de elementos HTML</td>
+                <td><a href="atividades/att2/index.html" target="_blank" rel="noopener noreferrer">Atividade 2</a></td>
+            </tr>
+            <tr>
+                <td>16/04/2025</td>
+                <td>Listas e citações</td>
+                <td><a href="atividades/att3/index.html" target="_blank" rel="noopener noreferrer">Atividade 3</a></td>
+            </tr>
+            <tr>
+                <td>23/04/2025</td>
+                <td>TABELAS</td>
+                <td><a href="atividades/att4/index.html" target="_blank" rel="noopener noreferrer">Atividade 4</a></td>
+            </tr>
+            <tr>
+                <td>30/04/2025</td>
+                <td>CSS Externo</td>
+                <td><a href="atividades/att5/index.html" target="_blank" rel="noopener noreferrer">Atividade 5</a></td>
+            </tr>
+            <tr>
+                <td>07/05/2025</td>
+                <td>Web Site hospedado em provedor gratuito</td>
+                <td><a href="https://arthur-nds.github.io/hospedagem_att/" target="_blank"
+                        rel="noopener noreferrer">Atividade 6</a></td>
+            </tr>
+            <tr>
+                <td>25/06/2025</td>
+                <td>Formulário temático</td>
+                <td><a href="atividades/Formulario-tematico/" target="_blank" rel="noopener noreferrer">Atividade 7</a>
+                </td>
+            </tr>
+        </table>
+    </section>
+    <footer>
+        <p>
+            &#x00AE;
+            2025 -
+            <a href="https://github.com/Arthur-nds" target="_blank" rel="noopener noreferrer" class="me">
+                Arthur.
+            </a>
+            Todos os direitos reservados.
+        </p>
+    </footer>
+
 </body>
+
 </html>
