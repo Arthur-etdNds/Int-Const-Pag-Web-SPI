@@ -1,0 +1,21 @@
+Cor primária → a que define a identidade (no seu caso, o verde pastel).
+
+Cor secundária → usada para complementar a primária (botões, destaques).
+
+Cor de fundo → neutra, suave para não cansar a visão.
+
+Cor de texto principal → geralmente escura, para contraste.
+
+Cor de detalhe/acento → usada em pequenos elementos (links, ícones, hover).
+
+🎨 Paleta sugerida (Web com Verde Pastel)
+
+Primária (verde pastel): #A8E6CF
+
+Secundária (rosa pastel): #FFB3BA
+
+Acento (lilás pastel): #BDB2FF
+
+Fundo (cinza muito claro): #F9F9F9
+
+Texto (cinza escuro): #333333

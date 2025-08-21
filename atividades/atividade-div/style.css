@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F9F9F9;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13pt;
+    color: #333;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+header {
+    width: 100%;
+    height: 360px;
+    position: relative;
+    color: #fff;
+}
+
+.header-title {
+    /* border: 1px solid green; */
+    background-color: #a8e6cf66;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.header-title h1 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20%;
+    width: 50%;
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, .7);
+}
+
+header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.menu {
+    position: sticky;
+    top: 0;
+    background-color: #4CAEA0;
+    padding: 1rem 1rem 1rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.navegation {
+    position: fixed;
+    right: 2rem;
+    bottom: 3.5rem;
+}
+
+.navegation ul {
+    list-style: none;
+    border: 1px solid #ccc;
+    background-color: #A8E6CF;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .4);
+}
+
+.navegation ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.navegation ul li a:hover {
+    color: #05695A;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.menu .logo img {
+    width: 2rem;
+}
+
+main {
+    margin-left: 10%;
+}
+
+section {
+    margin: 2rem 0 2rem 0;
+    width: 70%;
+    border-radius: 1rem;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    /* background-color: #E0F7EC; */
+    background-color: #A8E6CF;
+}
+
+.intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, auto);
+    gap: 1.5rem;
+}
+
+.intro div {
+    background-color: #ffffffcc; /* branco sem perder a cor do fundo */
+    padding: 1rem;
+    border-radius: .75rem;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+p {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.lado1 {
+    grid-column: 1;
+}
+
+.lado2 {
+    grid-column: 2;
+}
+
+.base {
+    grid-column: span 2;
+    font-weight: bold;
+}
+
+.place {
+    padding: 1.5rem 2rem 1.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.place img {
+    width: 50%;
+    border-radius: 1rem;
+    margin: 1.5rem;
+}
+
+.place-title {
+    width: 100%;
+}
+
+.place-text p {
+    padding: 1rem;
+    border-radius: .75rem;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .1);
+    background-color: #ffffffcc;
+}
+
+footer {
+    min-height: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a8e6cf;
+}
+
+.me {
+    text-decoration: none;
+    font-style: italic;
+    padding: 0.25rem;
+    border-radius: 0.5rem;
+}
